@@ -121,7 +121,7 @@ async function displayAlbums() {
     
 
 
-    await getsongs("songs/track")
+    await getsongs("songs/powerful")
     playMusic(songs[0], true)
     //display all the albums in the page 
     displayAlbums()
